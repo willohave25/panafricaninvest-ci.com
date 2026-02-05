@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=accueil.html">
+    <title>PANAFRICAN INVEST - Holding Financier Abidjan</title>
+    <style>
+        /* Style minimal pour affichage pendant redirection */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #003366 0%, #0056B3 100%);
+            color: #FFFFFF;
+        }
+        .loader {
+            text-align: center;
+        }
+        .loader h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .loader p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .spinner {
+            margin: 24px auto;
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top-color: #D4AF37;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        // Redirection JavaScript (backup si meta refresh échoue)
+        window.location.href = "accueil.html";
+    </script>
+</head>
+<body>
+    <div class="loader">
+        <h1>PANAFRICAN INVEST</h1>
+        <div class="spinner"></div>
+        <p>Chargement en cours...</p>
+        <p><a href="accueil.html" style="color: #D4AF37; text-decoration: underline;">Cliquez ici si la page ne se charge pas automatiquement</a></p>
+    </div>
+</body>
+</html>
