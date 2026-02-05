@@ -1,0 +1,71 @@
+# Robots.txt - PANAFRICAN INVEST
+# Site: https://panafricaninvest-ci.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://panafricaninvest-ci.com/sitemap.xml
+
+# Bloquer accès dossiers techniques (optionnel)
+Disallow: /css/
+Disallow: /js/
+
+# Autoriser indexation toutes pages principales
+Allow: /accueil.html
+Allow: /a-propos.html
+Allow: /services-investissement.html
+Allow: /services-gestion-patrimoine.html
+Allow: /services-conseil-strategique.html
+Allow: /finance.html
+Allow: /contact.html
+Allow: /mentions-legales.html
+Allow: /confidentialite.html
+
+# Bloquer fichiers système
+Disallow: /.git/
+Disallow: /README.md
+
+# Crawl-delay pour éviter surcharge serveur (optionnel)
+# Crawl-delay: 1
+```
+
+---
+
+## RÉSUMÉ 3 FICHIERS
+```
+✅ confidentialite.html - Politique complète RGPD
+✅ sitemap.xml - 10 URLs (index + 9 pages)
+✅ robots.txt - Configuration SEO optimale
+
+PUSH GITHUB MAINTENANT :
+
+git add confidentialite.html sitemap.xml robots.txt
+git commit -m "Final: Confidentialité + Sitemap + Robots"
+git push origin main
+```
+
+---
+
+## SITE COMPLET ✅
+```
+FICHIERS TOTAUX : 14
+
+1. index.html ✅
+2. accueil.html ✅
+3. a-propos.html ✅
+4. services-investissement.html ✅
+5. services-gestion-patrimoine.html ✅
+6. services-conseil-strategique.html ✅
+7. finance.html ✅
+8. contact.html ✅
+9. mentions-legales.html ✅
+10. confidentialite.html ✅
+11. css/style.css ✅
+12. js/main.js ✅
+13. sitemap.xml ✅
+14. robots.txt ✅
+
++ Images/Icons dans /images/
+
+PRÊT DÉPLOIEMENT CLOUDFLARE → GITHUB PAGES ✅
